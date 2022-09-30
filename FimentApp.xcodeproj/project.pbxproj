@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16159AC127FECE390028E417 /* FimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16159AC027FECE390028E417 /* FimentApp.swift */; };
+		16159AC527FECE3A0028E417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16159AC427FECE3A0028E417 /* Assets.xcassets */; };
+		16159AC827FECE3A0028E417 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16159AC727FECE3A0028E417 /* Preview Assets.xcassets */; };
+		16159ACF27FED1CF0028E417 /* ItemTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16159ACE27FED1CF0028E417 /* ItemTransactionView.swift */; };
+		16159AEF27FED73A0028E417 /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16159AEE27FED73A0028E417 /* DailyView.swift */; };
+		16159AF127FED7660028E417 /* MonthlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16159AF027FED7660028E417 /* MonthlyView.swift */; };
+		16159AF327FED7710028E417 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16159AF227FED7710028E417 /* MainView.swift */; };
+		16159B19280012C30028E417 /* AddDailyNecessitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16159B18280012C30028E417 /* AddDailyNecessitiesView.swift */; };
+		16159B1B28001B240028E417 /* DetailListTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16159B1A28001B240028E417 /* DetailListTransactionView.swift */; };
+		16159B1F28003A050028E417 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16159B1E28003A050028E417 /* Form.swift */; };
+		16159B21280150C60028E417 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16159B20280150C60028E417 /* Summary.swift */; };
+		16159B252801656B0028E417 /* ItemDailyNecessitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16159B242801656B0028E417 /* ItemDailyNecessitiesView.swift */; };
+		164BF38628CDE34800208F9D /* DailyNecessitiesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164BF38528CDE34800208F9D /* DailyNecessitiesRepository.swift */; };
+		164BF38828CDE35800208F9D /* TransactionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164BF38728CDE35800208F9D /* TransactionRepository.swift */; };
+		164BF38A28CDEBFC00208F9D /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164BF38928CDEBFC00208F9D /* TransactionViewModel.swift */; };
+		164BF38E28CE0AD200208F9D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164BF38D28CE0AD200208F9D /* Transaction.swift */; };
+		164BF39028CE0AE200208F9D /* DailyNecessities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164BF38F28CE0AE200208F9D /* DailyNecessities.swift */; };
+		168866DD28D7D259005900E7 /* MonthlyTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168866DC28D7D259005900E7 /* MonthlyTransaction.swift */; };
+		16D1D2E22802AA8B0013E651 /* EditDailyNecessitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1D2E12802AA8B0013E651 /* EditDailyNecessitiesView.swift */; };
+		16D1D32A2803478E0013E651 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16D1D3282803478E0013E651 /* CoreData.xcdatamodeld */; };
+		16D1D32C280347B50013E651 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1D32B280347B50013E651 /* Persistence.swift */; };
+		16D1D32E28034E580013E651 /* DailyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1D32D28034E580013E651 /* DailyViewModel.swift */; };
+		16D5A17C2804543E0068CF8D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5A17B2804543E0068CF8D /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16159ABD27FECE390028E417 /* FimentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FimentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16159AC027FECE390028E417 /* FimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FimentApp.swift; sourceTree = "<group>"; };
+		16159AC427FECE3A0028E417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16159AC727FECE3A0028E417 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16159ACE27FED1CF0028E417 /* ItemTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTransactionView.swift; sourceTree = "<group>"; };
+		16159AEE27FED73A0028E417 /* DailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
+		16159AF027FED7660028E417 /* MonthlyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyView.swift; sourceTree = "<group>"; };
+		16159AF227FED7710028E417 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		16159B18280012C30028E417 /* AddDailyNecessitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDailyNecessitiesView.swift; sourceTree = "<group>"; };
+		16159B1A28001B240028E417 /* DetailListTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListTransactionView.swift; sourceTree = "<group>"; };
+		16159B1E28003A050028E417 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		16159B20280150C60028E417 /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		16159B242801656B0028E417 /* ItemDailyNecessitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDailyNecessitiesView.swift; sourceTree = "<group>"; };
+		164BF38528CDE34800208F9D /* DailyNecessitiesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyNecessitiesRepository.swift; sourceTree = "<group>"; };
+		164BF38728CDE35800208F9D /* TransactionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepository.swift; sourceTree = "<group>"; };
+		164BF38928CDEBFC00208F9D /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		164BF38D28CE0AD200208F9D /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		164BF38F28CE0AE200208F9D /* DailyNecessities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyNecessities.swift; sourceTree = "<group>"; };
+		168866DC28D7D259005900E7 /* MonthlyTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyTransaction.swift; sourceTree = "<group>"; };
+		16D1D2E12802AA8B0013E651 /* EditDailyNecessitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDailyNecessitiesView.swift; sourceTree = "<group>"; };
+		16D1D3292803478E0013E651 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		16D1D32B280347B50013E651 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		16D1D32D28034E580013E651 /* DailyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewModel.swift; sourceTree = "<group>"; };
+		16D5A17B2804543E0068CF8D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16159ABA27FECE390028E417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16159AB427FECE390028E417 = {
+			isa = PBXGroup;
+			children = (
+				16159ABF27FECE390028E417 /* FimentApp */,
+				16159ABE27FECE390028E417 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16159ABE27FECE390028E417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16159ABD27FECE390028E417 /* FimentApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16159ABF27FECE390028E417 /* FimentApp */ = {
+			isa = PBXGroup;
+			children = (
+				164BF38B28CE0A9A00208F9D /* Domain */,
+				16159AF527FF4DB20028E417 /* ViewModel */,
+				16159AF427FED83E0028E417 /* Views */,
+				16159AC027FECE390028E417 /* FimentApp.swift */,
+				16D1D3282803478E0013E651 /* CoreData.xcdatamodeld */,
+				16D5A17B2804543E0068CF8D /* Utils.swift */,
+				16159AC427FECE3A0028E417 /* Assets.xcassets */,
+				16159AC627FECE3A0028E417 /* Preview Content */,
+			);
+			path = FimentApp;
+			sourceTree = "<group>";
+		};
+		16159AC627FECE3A0028E417 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16159AC727FECE3A0028E417 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16159AF427FED83E0028E417 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				164BF38328CDDD5000208F9D /* Components */,
+				16159AF227FED7710028E417 /* MainView.swift */,
+				16159AEE27FED73A0028E417 /* DailyView.swift */,
+				16159AF027FED7660028E417 /* MonthlyView.swift */,
+				16159B18280012C30028E417 /* AddDailyNecessitiesView.swift */,
+				16D1D2E12802AA8B0013E651 /* EditDailyNecessitiesView.swift */,
+				16159B1A28001B240028E417 /* DetailListTransactionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16159AF527FF4DB20028E417 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				16D1D32D28034E580013E651 /* DailyViewModel.swift */,
+				164BF38928CDEBFC00208F9D /* TransactionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		164BF38328CDDD5000208F9D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				16159ACE27FED1CF0028E417 /* ItemTransactionView.swift */,
+				16159B242801656B0028E417 /* ItemDailyNecessitiesView.swift */,
+				16159B1E28003A050028E417 /* Form.swift */,
+				16159B20280150C60028E417 /* Summary.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		164BF38428CDE24900208F9D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				16D1D32B280347B50013E651 /* Persistence.swift */,
+				164BF38528CDE34800208F9D /* DailyNecessitiesRepository.swift */,
+				164BF38728CDE35800208F9D /* TransactionRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		164BF38B28CE0A9A00208F9D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				164BF38C28CE0AAF00208F9D /* Models */,
+				164BF38428CDE24900208F9D /* Repositories */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		164BF38C28CE0AAF00208F9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				164BF38D28CE0AD200208F9D /* Transaction.swift */,
+				164BF38F28CE0AE200208F9D /* DailyNecessities.swift */,
+				168866DC28D7D259005900E7 /* MonthlyTransaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16159ABC27FECE390028E417 /* FimentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16159ACB27FECE3A0028E417 /* Build configuration list for PBXNativeTarget "FimentApp" */;
+			buildPhases = (
+				16159AB927FECE390028E417 /* Sources */,
+				16159ABA27FECE390028E417 /* Frameworks */,
+				16159ABB27FECE390028E417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FimentApp;
+			productName = FimentApp;
+			productReference = 16159ABD27FECE390028E417 /* FimentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16159AB527FECE390028E417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					16159ABC27FECE390028E417 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 16159AB827FECE390028E417 /* Build configuration list for PBXProject "FimentApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16159AB427FECE390028E417;
+			productRefGroup = 16159ABE27FECE390028E417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16159ABC27FECE390028E417 /* FimentApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16159ABB27FECE390028E417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16159AC827FECE3A0028E417 /* Preview Assets.xcassets in Resources */,
+				16159AC527FECE3A0028E417 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16159AB927FECE390028E417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16159AEF27FED73A0028E417 /* DailyView.swift in Sources */,
+				16159AF327FED7710028E417 /* MainView.swift in Sources */,
+				16159ACF27FED1CF0028E417 /* ItemTransactionView.swift in Sources */,
+				164BF39028CE0AE200208F9D /* DailyNecessities.swift in Sources */,
+				168866DD28D7D259005900E7 /* MonthlyTransaction.swift in Sources */,
+				16159B252801656B0028E417 /* ItemDailyNecessitiesView.swift in Sources */,
+				16D1D32A2803478E0013E651 /* CoreData.xcdatamodeld in Sources */,
+				16D5A17C2804543E0068CF8D /* Utils.swift in Sources */,
+				16159AC127FECE390028E417 /* FimentApp.swift in Sources */,
+				16159B1F28003A050028E417 /* Form.swift in Sources */,
+				164BF38828CDE35800208F9D /* TransactionRepository.swift in Sources */,
+				16D1D32C280347B50013E651 /* Persistence.swift in Sources */,
+				16D1D2E22802AA8B0013E651 /* EditDailyNecessitiesView.swift in Sources */,
+				164BF38E28CE0AD200208F9D /* Transaction.swift in Sources */,
+				164BF38A28CDEBFC00208F9D /* TransactionViewModel.swift in Sources */,
+				164BF38628CDE34800208F9D /* DailyNecessitiesRepository.swift in Sources */,
+				16159B21280150C60028E417 /* Summary.swift in Sources */,
+				16159B19280012C30028E417 /* AddDailyNecessitiesView.swift in Sources */,
+				16159B1B28001B240028E417 /* DetailListTransactionView.swift in Sources */,
+				16D1D32E28034E580013E651 /* DailyViewModel.swift in Sources */,
+				16159AF127FED7660028E417 /* MonthlyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16159AC927FECE3A0028E417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16159ACA27FECE3A0028E417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16159ACC27FECE3A0028E417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FimentApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbadhit.FimentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16159ACD27FECE3A0028E417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FimentApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbadhit.FimentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16159AB827FECE390028E417 /* Build configuration list for PBXProject "FimentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16159AC927FECE3A0028E417 /* Debug */,
+				16159ACA27FECE3A0028E417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16159ACB27FECE3A0028E417 /* Build configuration list for PBXNativeTarget "FimentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16159ACC27FECE3A0028E417 /* Debug */,
+				16159ACD27FECE3A0028E417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16D1D3282803478E0013E651 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16D1D3292803478E0013E651 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 16D1D3292803478E0013E651 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16159AB527FECE390028E417 /* Project object */;
+}
