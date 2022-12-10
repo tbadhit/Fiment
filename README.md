@@ -26,3 +26,6 @@
 - [SwiftUI](https://developer.apple.com/xcode/swiftui/)
 - [Foundation](https://developer.apple.com/documentation/foundation)
 - [CoreData](https://developer.apple.com/documentation/coredata)
+
+### Design Pattren
+- MVVM (Model-View-ViewModel)
